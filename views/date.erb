@@ -6,6 +6,7 @@
 
   <body>
     <h1>Today</h1>
-    <p>The date is <%= DateTime.now.strftime(%A) %> </p>
+    <% t = DateTime.now %>
+    <p>The date is <%= t.strftime(Today is %A) %> </p>
   </body>
 </html>
